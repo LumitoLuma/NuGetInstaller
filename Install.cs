@@ -1,18 +1,17 @@
 ﻿using System;
 using System.IO;
 using System.Net;
-using static System.Console;
 
 namespace NugetInstaller
 {
-    public class Install
+    public static class Install
     {
         public static void DownloadInstall(string FileURL, string DestPath)
         {
-            Write("- ");
-            ForegroundColor = ConsoleColor.Magenta;
-            Write("Attemping to download and install NuGet.exe...");
-            ResetColor();
+            Console.Write("- ");
+            Console.ForegroundColor = ConsoleColor.Magenta;
+            Console.Write("Attemping to download and install NuGet.exe...");
+            Console.ResetColor();
             try
             {
                 /* Enables HTTPS connection */
@@ -21,23 +20,23 @@ namespace NugetInstaller
                 /* Downloads and installs requested file */
                 WebClient Client = new WebClient();
                 Client.DownloadFile(FileURL, DestPath);
-                ForegroundColor = ConsoleColor.Green;
-                WriteLine(" Done!");
-                ResetColor();
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine(" Done!");
+                Console.ResetColor();
                 System.Threading.Thread.Sleep(1000);
             }
             catch (Exception ex)
             {
-                ForegroundColor = ConsoleColor.Red;
-                Write(" Error! " + ex.Message + "\n\nPlease check if you have the correct permissions. Full StackTrace at error.log");
-                ResetColor();
-                WriteLine();
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Write(" Error! " + ex.Message + "\n\nPlease check if you have the correct permissions. Full StackTrace at error.log");
+                Console.ResetColor();
+                Console.WriteLine();
                 string time = DateTime.Now.TimeOfDay.ToString();
                 string progpath = AppDomain.CurrentDomain.BaseDirectory; // Gets application directory
                 TextWriter txtwrite = new StreamWriter(progpath + @"\error.log", true);
                 txtwrite.WriteLine("[" + time + "] " + ex + "\n");
                 txtwrite.Close();
-                Beep(400, 350);
+                Console.Beep(400, 350);
                 System.Threading.Thread.Sleep(650);
             }
         }

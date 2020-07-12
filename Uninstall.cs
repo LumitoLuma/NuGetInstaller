@@ -1,47 +1,46 @@
 ﻿using System;
 using System.IO;
-using static System.Console;
 
 namespace NugetInstaller
 {
-    public class Uninstall
+    public static class Uninstall
     {
         public static void RemoveFile(string FilePath)
         {
             if (File.Exists(FilePath))
             {
-                Write("- ");
-                ForegroundColor = ConsoleColor.Magenta;
-                Write("Attemping to uninstall NuGet.exe...");
-                ResetColor();
+                Console.Write("- ");
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.Write("Attemping to uninstall NuGet.exe...");
+                Console.ResetColor();
                 try
                 {
                     File.Delete(FilePath);
-                    ForegroundColor = ConsoleColor.Green;
-                    WriteLine(" Done!");
-                    ResetColor();
+                    Console.ForegroundColor = ConsoleColor.Green;
+                    Console.WriteLine(" Done!");
+                    Console.ResetColor();
                     System.Threading.Thread.Sleep(1000);
                 }
                 catch (Exception ex)
                 {
-                    ForegroundColor = ConsoleColor.Red;
-                    Write(" Error! " + ex.Message + "\n\nPlease check if you have the correct permissions. Full StackTrace at error.log");
-                    ResetColor();
-                    WriteLine();
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.Write(" Error! " + ex.Message + "\n\nPlease check if you have the correct permissions. Full StackTrace at error.log");
+                    Console.ResetColor();
+                    Console.WriteLine();
                     string time = DateTime.Now.TimeOfDay.ToString();
                     string progpath = AppDomain.CurrentDomain.BaseDirectory; // Gets application directory
                     TextWriter txtwrite = new StreamWriter(progpath + @"\error.log", true);
                     txtwrite.WriteLine("[" + time + "] " + ex + "\n");
                     txtwrite.Close();
-                    Beep(400, 350);
+                    Console.Beep(400, 350);
                     System.Threading.Thread.Sleep(650);
                 }
             }
             else
             {
-                ForegroundColor = ConsoleColor.Yellow;
-                WriteLine("Program uninstallation is not needed.");
-                ResetColor();
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                Console.WriteLine("Program uninstallation is not needed.");
+                Console.ResetColor();
                 System.Threading.Thread.Sleep(1000);
             }
         }

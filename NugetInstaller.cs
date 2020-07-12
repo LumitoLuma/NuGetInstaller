@@ -31,7 +31,7 @@ namespace NugetInstaller
             {
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Lumito's NugetInstaller version 1.00");
-                Console.WriteLine("© 2020, Lumito. www.lumito.net");
+                Console.WriteLine("Copyright (C) 2020, Lumito. www.lumito.net");
                 Console.ResetColor();
                 Console.WriteLine();
             }

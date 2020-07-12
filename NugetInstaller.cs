@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Lumito's NugetInstaller version 1.00
+ * Copyright (C) 2020, Lumito. www.lumito.net
+ * Licensed under MIT license
+ * GitHub repository: github.com/LumitoLuma/NugetInstaller
+ */
+
+using System;
 
 namespace NugetInstaller
 {

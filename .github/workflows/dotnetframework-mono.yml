@@ -13,5 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: Building Nuget Installer
+    - name: Building NuGet Installer
       run: msbuild -p:Configuration=Release -p:Platform="Any CPU"

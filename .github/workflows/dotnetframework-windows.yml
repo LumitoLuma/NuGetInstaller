@@ -15,5 +15,5 @@ jobs:
     - uses: actions/checkout@v2
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
-    - name: Building Nuget Installer
+    - name: Building NuGet Installer
       run: msbuild /m /p:Configuration=Release /p:Platform="Any CPU"

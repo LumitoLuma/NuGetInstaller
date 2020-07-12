@@ -17,6 +17,6 @@ steps:
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Pipeline.Workspace)\s\bin\Release\NugetInstaller.exe'
-    artifact: 'Nuget Installer executable file'
+    artifact: 'NuGet Installer executable file'
     publishLocation: 'pipeline'
   displayName: 'Publish Pipeline Artifacts'

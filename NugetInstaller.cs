@@ -1,7 +1,9 @@
-﻿/*
+﻿/**
+ * NugetInstaller.cs is the main part of the NugetInstaller project.
+ *
  * Lumito's NugetInstaller version 1.00
  * Copyright (C) 2020, Lumito. www.lumito.net
- * Licensed under MIT license
+ * Licensed under the MIT license
  * GitHub repository: github.com/LumitoLuma/NugetInstaller
  */
 

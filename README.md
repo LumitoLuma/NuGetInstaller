@@ -9,3 +9,5 @@ A command-line installer that installs the latest version of NuGet.exe into your
 | [![.NET Framework (Mono)](https://github.com/LumitoLuma/NugetInstaller/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/NugetInstaller/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) | | | |
 
 ### Building and installation instructions coming soon
+
+**© 2020, Lumito - [www.lumito.net](https://lumito.net)**

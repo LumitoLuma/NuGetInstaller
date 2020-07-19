@@ -36,7 +36,7 @@ namespace NugetInstaller
 
         public static void Main(string[] args)
         {
-            if (args.Length <= 1 || args[1].ToUpper() != "/NOLOGO")
+            if (args.Length <= 1 || args[1].ToUpperInvariant() != "/NOLOGO")
             {
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
                 Console.WriteLine("Lumito's NugetInstaller version 1.00");
@@ -50,7 +50,7 @@ namespace NugetInstaller
                 {
                     Uninstall.RemoveFile(@"C:\Windows\nuget.exe");
 		}
-                else if (args[0].ToLower().Equals("install"))
+                else if (args[0].ToLowerInvariant().Equals("install"))
                 {
                     Install.DownloadInstall(@"https://dist.nuget.org/win-x86-commandline/latest/nuget.exe", @"C:\Windows\nuget.exe");
                 }

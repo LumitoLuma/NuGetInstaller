@@ -46,10 +46,10 @@ namespace NugetInstaller
             }
             if (args.Length > 0)
             {
-                if (args[0].ToLower().Equals("uninstall"))
+                if (args[0].ToLowerInvariant().Equals("uninstall"))
                 {
                     Uninstall.RemoveFile(@"C:\Windows\nuget.exe");
-                }
+		}
                 else if (args[0].ToLower().Equals("install"))
                 {
                     Install.DownloadInstall(@"https://dist.nuget.org/win-x86-commandline/latest/nuget.exe", @"C:\Windows\nuget.exe");

@@ -63,7 +63,7 @@ namespace NugetInstaller
             {
                 Install.DownloadInstall(@"https://dist.nuget.org/win-x86-commandline/latest/nuget.exe", @"C:\Windows\nuget.exe");
             }
-            Console.ResetColor(); // Resets console default color
+            Console.ResetColor();
         }
     }
 }

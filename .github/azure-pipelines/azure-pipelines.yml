@@ -23,3 +23,8 @@ jobs:
       artifact: 'NuGet Installer executable file'
       publishLocation: 'pipeline'
     displayName: 'Publish Pipeline Artifacts'
+
+  - task: NuGetCommand@2
+    inputs:
+      command: pack
+      packagesToPack: '**/*.sln'

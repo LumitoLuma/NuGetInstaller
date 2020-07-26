@@ -17,7 +17,7 @@ Nuget Installer is a command-line installer that installs the latest version of 
     ```batch
     msbuild.exe NugetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"
     ```
-    
+
 4.  Check `bin\Release` folder and enjoy Nuget Installer!
 
 ## Badges

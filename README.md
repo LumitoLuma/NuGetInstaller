@@ -11,6 +11,7 @@ Nuget Installer is a command-line installer that installs the latest version of 
 1.  `git clone` or download this repository.
 2.  Open `cmd.exe` (or Developer Command Prompt if you are using Visual Studio) in the folder you have extracted the files.
 3.  Run:
+
     ```batch
     msbuild.exe NugetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"
     ```
@@ -26,7 +27,7 @@ Nuget Installer is a command-line installer that installs the latest version of 
 ## Downloading compiled version of Nuget Installer
 You can download a compiled version of Nuget Installer through Releases tab.
 
-| [![Download now!](https://img.shields.io/badge/Download-now-green.svg?style=flat-square)](https://github.com/LumitoLuma/NugetInstaller/Releases) |
+| [![Download now!](https://img.shields.io/badge/Download-now-green.svg?style=flat-square)](https://github.com/LumitoLuma/NugetInstaller/releases) |
 |:-:|
 
 ## Contributing to the project

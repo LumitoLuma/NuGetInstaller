@@ -20,13 +20,13 @@ jobs:
   - task: PublishPipelineArtifact@1
     inputs:
       targetPath: '$(Pipeline.Workspace)\s\CLI\bin\Release\NuGetInstaller.exe'
-      artifact: 'NuGet Installer executable file'
+      artifact: 'NuGet Installer CLI executable file'
       publishLocation: 'pipeline'
     displayName: 'Publish CLI Pipeline Artifacts'
 
   - task: PublishPipelineArtifact@1
     inputs:
       targetPath: '$(Pipeline.Workspace)\s\GUI\bin\Release\NuGetInstaller-GUI.exe'
-      artifact: 'NuGet Installer executable file'
+      artifact: 'NuGet Installer GUI executable file'
       publishLocation: 'pipeline'
     displayName: 'Publish GUI Pipeline Artifacts'

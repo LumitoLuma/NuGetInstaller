@@ -61,13 +61,17 @@ namespace GUI
         {
             folderBrowserDialog1.ShowDialog();
             if (folderBrowserDialog1.SelectedPath != "")
+            {
                 textBox1.Text = folderBrowserDialog1.SelectedPath;
+            }  
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (File.Exists(FileName))
+            {
                 File.Delete(FileName);
+            }
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -86,7 +90,9 @@ namespace GUI
             if (textBox1.Text.Contains("\\"))
             {
                 if (!Directory.Exists(textBox1.Text))
+                {
                     Directory.CreateDirectory(textBox1.Text);
+                }
             }
             try
             {

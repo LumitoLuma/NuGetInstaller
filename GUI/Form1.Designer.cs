@@ -1,4 +1,13 @@
-﻿namespace GUI
+/**
+ * Form1.Designer.cs is a part of the NuGetInstaller GUI project.
+ *
+ * Lumito's NuGetInstaller GUI version 2.00
+ * Copyright (C) 2020, Lumito. www.lumito.net
+ * Licensed under the MIT license
+ * GitHub repository: github.com/LumitoLuma/NugetInstaller
+ */
+
+namespace GUI
 {
     partial class Form1
     {

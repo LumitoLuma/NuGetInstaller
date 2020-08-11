@@ -1,7 +1,7 @@
 ﻿/**
- * Install.cs is a part of the NugetInstaller project.
+ * Install.cs is a part of the NuGetInstaller project.
  *
- * Lumito's NugetInstaller version 1.00
+ * Lumito's NuGetInstaller CLI version 2.00
  * Copyright (C) 2020, Lumito. www.lumito.net
  * Licensed under the MIT license
  * GitHub repository: github.com/LumitoLuma/NugetInstaller

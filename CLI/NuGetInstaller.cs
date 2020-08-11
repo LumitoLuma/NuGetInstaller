@@ -1,7 +1,7 @@
 ﻿/**
- * NugetInstaller.cs is the main part of the NugetInstaller project.
+ * NuGetInstaller.cs is the main part of the NuGetInstaller project.
  *
- * Lumito's NugetInstaller version 1.00
+ * Lumito's NuGetInstaller CLI version 2.00
  * Copyright (C) 2020, Lumito. www.lumito.net
  * Licensed under the MIT license
  * GitHub repository: github.com/LumitoLuma/NugetInstaller
@@ -39,7 +39,7 @@ namespace CLI
             if (args.Length <= 1 || args[1].ToUpperInvariant() != "/NOLOGO")
             {
                 Console.ForegroundColor = ConsoleColor.DarkGreen;
-                Console.WriteLine("Lumito's NuGetInstaller version 1.00");
+                Console.WriteLine("Lumito's NuGetInstaller CLI version 2.00");
                 Console.WriteLine("Copyright (C) 2020, Lumito. www.lumito.net");
                 Console.ResetColor();
                 Console.WriteLine();

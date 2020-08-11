@@ -2,11 +2,11 @@ using System.Reflection;
 using System.Resources;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Nuget Installer CLI")]
+[assembly: AssemblyTitle("NuGet Installer CLI")]
 [assembly: AssemblyDescription("Installs the latest version of NuGet into your system")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Lumito")]
-[assembly: AssemblyProduct("Nuget Installer CLI")]
+[assembly: AssemblyProduct("NuGet Installer CLI")]
 [assembly: AssemblyCopyright("© 2020, Lumito")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

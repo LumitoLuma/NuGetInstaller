@@ -1,7 +1,7 @@
-# Nuget Installer
+# NuGet Installer
 
-## What is Nuget Installer
-Nuget Installer is a command-line installer that installs the latest version of NuGet.exe into your system. You may notice while you use NuGet that you always need to move the NuGet.exe file every time you want to use it. To solve this problem, I wrote this software, Nuget Installer, that installs NuGet.exe directly into C:\Windows folder, so you do not need to copy it every time you want to run it.
+## What is NuGet Installer
+NuGet Installer is a command-line installer that installs the latest version of NuGet.exe into your system. You may notice while you use NuGet that you always need to move `NuGet.exe` file every time you want to use it. To solve this problem, I wrote this software, NuGet Installer, that installs NuGet.exe directly into C:\Windows folder, so you do not need to copy it every time you want to run it.
 
 ## Building source code
 ### Requirements
@@ -26,10 +26,10 @@ Nuget Installer is a command-line installer that installs the latest version of 
 | [![.NET Framework (Windows)](https://github.com/LumitoLuma/NugetInstaller/workflows/.NET%20Framework%20(Windows)/badge.svg)](https://github.com/LumitoLuma/NugetInstaller/actions?query=workflow%3A%22.NET+Framework+%28Windows%29%22) | [![Build status](https://ci.appveyor.com/api/projects/status/bkdtonymj7ayhm2h?svg=true)](https://ci.appveyor.com/project/LumitoLuma/NugetInstaller) | [![Build Status](https://dev.azure.com/LumitoLuma/GitHub/_apis/build/status/LumitoLuma.NugetInstaller?branchName=master)](https://dev.azure.com/LumitoLuma/GitHub/_build/latest?definitionId=14&branchName=master) | [![Build Status](https://travis-ci.com/LumitoLuma/NugetInstaller.svg?branch=master)](https://travis-ci.com/LumitoLuma/NugetInstaller) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/8dff8f4225114d29bc7d7c31c4a0ff42)](https://www.codacy.com/manual/LumitoLuma/NugetInstaller?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=LumitoLuma/NugetInstaller&amp;utm_campaign=Badge_Grade) |
 | [![.NET Framework (Mono)](https://github.com/LumitoLuma/NugetInstaller/workflows/.NET%20Framework%20(Mono)/badge.svg)](https://github.com/LumitoLuma/NugetInstaller/actions?query=workflow%3A%22.NET+Framework+%28Mono%29%22) | | | | |
 
-## Downloading compiled version of Nuget Installer
-You can download a compiled version of Nuget Installer through Releases tab.
+## Downloading compiled version of NuGet Installer
+You can download a compiled version of NuGet Installer through Releases tab.
 
-| [![Download now!](https://img.shields.io/badge/Download-now-green.svg?style=flat-square)](https://github.com/LumitoLuma/NugetInstaller/releases) |
+| [![Download now!](https://img.shields.io/badge/Download-now-green.svg?style=flat-square)](https://github.com/LumitoLuma/NuGetInstaller/releases) |
 |:-:|
 
 ## Contributing to the project

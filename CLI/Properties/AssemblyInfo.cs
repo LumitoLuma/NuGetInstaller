@@ -2,18 +2,18 @@
 using System.Resources;
 using System.Runtime.InteropServices;
 
-[assembly: AssemblyTitle("Nuget Installer")]
+[assembly: AssemblyTitle("Nuget Installer CLI")]
 [assembly: AssemblyDescription("Installs the latest version of NuGet into your system")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Lumito")]
-[assembly: AssemblyProduct("Nuget Installer")]
+[assembly: AssemblyProduct("Nuget Installer CLI")]
 [assembly: AssemblyCopyright("© 2020, Lumito")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 [assembly: ComVisible(false)]
 
-[assembly: Guid("30f6dd13-b5a7-4751-be09-b8da945e1ae6")]
+[assembly: Guid("d1074a0c-d571-4b3d-9d28-41098ede9c24")]
 
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]

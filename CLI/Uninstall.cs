@@ -10,7 +10,7 @@
 using System;
 using System.IO;
 
-namespace NugetInstaller
+namespace CLI
 {
     public static class Uninstall
     {

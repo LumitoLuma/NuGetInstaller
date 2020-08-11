@@ -1,7 +1,7 @@
 ﻿/**
- * Uninstall.cs is a part of the NugetInstaller project.
+ * Uninstall.cs is a part of the NuGetInstaller project.
  *
- * Lumito's NugetInstaller version 1.00
+ * Lumito's NuGetInstaller CLI version 1.00
  * Copyright (C) 2020, Lumito. www.lumito.net
  * Licensed under the MIT license
  * GitHub repository: github.com/LumitoLuma/NugetInstaller
@@ -10,7 +10,7 @@
 using System;
 using System.IO;
 
-namespace NugetInstaller
+namespace CLI
 {
     public static class Uninstall
     {

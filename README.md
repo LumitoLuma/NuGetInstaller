@@ -1,5 +1,5 @@
 # NuGet Installer
-
+**Attention! This documentation is currently outdated, so there are steps that may vary with the real result**
 ## What is NuGet Installer
 NuGet Installer is a command-line installer that installs the latest version of NuGet.exe into your system. You may notice while you use NuGet that you always need to move `NuGet.exe` file every time you want to use it. To solve this problem, I wrote this software, NuGet Installer, that installs NuGet.exe directly into C:\Windows folder, so you do not need to copy it every time you want to run it.
 

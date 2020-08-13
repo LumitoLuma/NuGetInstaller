@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - checkout
-      - run: msbuild NugetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"
+      - run: msbuild NuGetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"

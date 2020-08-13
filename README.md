@@ -8,7 +8,7 @@ NuGet Installer is a command-line installer that installs the latest version of 
 -   Visual Studio 2019 or Microsoft .NET Framework
 
 ### Procedure
-1.  `git clone https://github.com/LumitoLuma/NuGetInstaller.git` or download this repository.
+1.  `git clone` or download this repository.
 
 2.  Open `cmd.exe` (or Developer Command Prompt if you are using Visual Studio) in the folder you have extracted the files.
 

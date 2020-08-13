@@ -8,4 +8,4 @@ install:
   - choco.exe install visualstudio2019buildtools --package-parameters "--add Microsoft.VisualStudio.Component.VC.Tools.x86.x64"
 script:
   - export PATH=$MSBUILD_PATH:$PATH
-  - MSBuild.exe NugetInstaller.sln -m -p:Configuration=Release -p:Platform="Any CPU"
+  - MSBuild.exe NuGetInstaller.sln -m -p:Configuration=Release -p:Platform="Any CPU"

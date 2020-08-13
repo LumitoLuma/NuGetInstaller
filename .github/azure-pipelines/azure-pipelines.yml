@@ -8,11 +8,11 @@ jobs:
 
   - task: MSBuild@1
     inputs:
-      solution: 'NugetInstaller.sln'
+      solution: 'NuGetInstaller.sln'
       platform: 'Any CPU'
       configuration: 'Release'
       maximumCpuCount: true
-    displayName: 'Building Nuget Installer using MSBuild'
+    displayName: 'Building NuGet Installer using MSBuild'
 
   - task: PublishPipelineArtifact@1
     inputs:

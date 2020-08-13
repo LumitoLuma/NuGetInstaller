@@ -16,4 +16,4 @@ jobs:
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
     - name: Building NuGet Installer
-      run: msbuild NugetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"
+      run: msbuild NuGetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"

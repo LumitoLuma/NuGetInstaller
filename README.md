@@ -14,7 +14,7 @@ NuGet Installer is a command-line installer that installs the latest version of 
 3.  Run:
 
     ```batch
-    msbuild NuGetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"
+    msbuild.exe NuGetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"
     ```
 
 4.  Check `bin\Release` folder and enjoy NuGet Installer!

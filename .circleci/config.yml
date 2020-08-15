@@ -4,11 +4,8 @@ orbs:
  win: circleci/windows@2.2.0
 
 jobs:
-  branches:
-    ignore:
-      - gh-pages
   build:
-    executor: win/default
+    executor: win/default     
 
     steps:
       - checkout

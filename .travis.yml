@@ -1,6 +1,6 @@
 os: windows
 language: csharp
-solution: NugetInstaller.sln
+solution: NuGetInstaller.sln
 mono: none
 env:
   - MSBUILD_PATH="C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\MSBuild\Current\Bin"

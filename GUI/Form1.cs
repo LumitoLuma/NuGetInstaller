@@ -80,7 +80,7 @@ namespace GUI
 
         private void Label3_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("https://lumito.net");
+            System.Diagnostics.Process.Start("https://www.lumito.net");
         }
 
         private void DownloadInstall(Uri FileURL, string DestPath)

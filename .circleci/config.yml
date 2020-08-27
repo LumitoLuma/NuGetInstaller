@@ -9,4 +9,6 @@ jobs:
 
     steps:
       - checkout
-      - run: msbuild NuGetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"
+      - run:
+          name: Building NuGet Installer using MSBuild
+          command: msbuild NuGetInstaller.sln /m /p:Configuration=Release /p:Platform="Any CPU"

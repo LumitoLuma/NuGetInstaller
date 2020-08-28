@@ -4,7 +4,7 @@
  * Lumito's NuGetInstaller CLI version 2.00
  * Copyright (C) 2020, Lumito. www.lumito.net
  * Licensed under the MIT license
- * GitHub repository: github.com/LumitoLuma/NugetInstaller
+ * GitHub repository: github.com/LumitoLuma/NuGetInstaller
  */
 
 using System;

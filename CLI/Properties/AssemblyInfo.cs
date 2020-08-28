@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("NuGet Installer CLI")]
 [assembly: AssemblyDescription("Installs the latest version of NuGet into your system")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Lumito")]
+[assembly: AssemblyCompany("Lumito, www.lumito.net")]
 [assembly: AssemblyProduct("NuGet Installer CLI")]
 [assembly: AssemblyCopyright("© 2020, Lumito")]
 [assembly: AssemblyTrademark("")]
